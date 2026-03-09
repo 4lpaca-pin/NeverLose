@@ -177,16 +177,16 @@ Label:AddSlider({
   Default = 50,
   Min = 0,
   Max = 10,
-  Type = "", -- Opsional
+  Type = "", -- Opional
   Rounding = 0,
   
-  Nums = { -- Opsional
+  Nums = { -- Opional
     [0] = "Off",
     [10] = "Max",
   },
   
   Flag = "MySlider",
-  Size = 125, -- Size of Slider <Pixel> (Opsional)
+  Size = 125, -- Size of Slider <Pixel> (Opional)
   Callback = function(value)
   
   end,,
@@ -196,7 +196,7 @@ Label:AddSlider({
 - 1 > Gear Icon
 - 2 > Chevron Right Icon
 ```lua
-Label:AddOption(<number (Opsional)>)
+Label:AddOption(<number (Opional)>)
 ```
 Usage:
 ```lua
@@ -244,7 +244,7 @@ Label:AddTextInput({
   Callback = function()
   end,
   Flag = "MyText",
-  Size = 100, -- Size of Textbox <Pixel> (Opsional)
+  Size = 100, -- Size of Textbox <Pixel> (Opional)
   Numeric = false,
 })
 ```
@@ -258,7 +258,7 @@ Label:AddDropdown({
   end,
   AutoUpdate = false,
   Flag = "MySingleDropdown",
-  Size = 100, -- Size of Dropdown <Pixel> (Opsional)
+  Size = 100, -- Size of Dropdown <Pixel> (Opional)
 })
 ```
 Multiple Dropdown
@@ -273,7 +273,7 @@ Label:AddDropdown({
   end,
   AutoUpdate = false,
   Flag = "MySingleDropdown",
-  Size = 100, -- Size of Dropdown <Pixel> (Opsional)
+  Size = 100, -- Size of Dropdown <Pixel> (Opional)
 })
 ```
 # Other Functions
